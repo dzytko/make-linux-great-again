@@ -5,7 +5,7 @@ echo "=====STARTING $current_script_name====="
 
 echo "===Installing rxvt==="
 sudo apt update
-sudo apt install sudo apt install rxvt-unicode -y
+sudo apt install -y rxvt-unicode
 
 echo "===Changing default terminal emulator to urxvt==="
 sudo update-alternatives --set x-terminal-emulator /usr/bin/urxvt
