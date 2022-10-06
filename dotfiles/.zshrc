@@ -12,6 +12,6 @@ source $ZSH/oh-my-zsh.sh
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-source .aliases
+source ~/.aliases
 
-eval `dircolors .dircolors_256_sol`
+eval `dircolors ~/.dircolors_256_sol`
